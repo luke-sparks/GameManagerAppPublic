@@ -1,3 +1,10 @@
+.grid_body {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 10% 40% 40% 10%;
+  padding: 40px;
+  grid-row-gap: 40px;
+}
 .body {
   height: auto;
   width: auto;
@@ -18,4 +25,14 @@
 }
 #Welcome {
   font-size: 24px;
+}
+#previous {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: start;
+}
+#continue {
+  grid-row: 2;
+  grid-column: 3;
+  justify-self: end;
 }

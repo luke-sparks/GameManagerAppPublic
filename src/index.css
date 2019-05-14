@@ -12,10 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.footer {
-  display: grid;
-  grid-row-gap: 40px;
-  padding: 40px;
-  grid-template-rows: auto 50px;
-  grid-template-columns: 10% 40% 40% 10%;
-}

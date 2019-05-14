@@ -2,7 +2,6 @@
   color: #b83336;
 }
 .nav_bar_button {
-  justify-self: center;
   border: none;
   background-color: #ffffff;
   width: 150px;
@@ -10,4 +9,7 @@
   color: #939191;
   font-family: Roboto;
   font-size: 20px;
+}
+.active .nav_bar_button {
+  color: #b83336;
 }
