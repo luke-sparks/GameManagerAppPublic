@@ -1,0 +1,28 @@
+div.rectangle {
+  height: 75px;
+  background: #b83336;
+}
+#flag {
+  position: absolute;
+  left: 40px;
+  width: 200.79px;
+}
+#gameManager {
+  position: absolute;
+  font-size: 20px;
+  font-family: Roboto;
+  color: #ffffff;
+  left: 220px;
+  top: 10px;
+}
+.roundButton {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #b83336;
+  background: #ffffff;
+}

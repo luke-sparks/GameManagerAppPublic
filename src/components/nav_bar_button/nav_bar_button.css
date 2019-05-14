@@ -1,0 +1,13 @@
+.nav_bar_button:hover {
+  color: #b83336;
+}
+.nav_bar_button {
+  justify-self: center;
+  border: none;
+  background-color: #ffffff;
+  width: 150px;
+  height: 50px;
+  color: #939191;
+  font-family: Roboto;
+  font-size: 20px;
+}
