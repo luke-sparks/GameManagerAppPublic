@@ -3,6 +3,7 @@ div.rectangle {
   background: #b83336;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 #flag {
   position: absolute;

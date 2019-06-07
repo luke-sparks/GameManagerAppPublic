@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  height: auto;
+  grid-template-columns: auto;
+  align-content: start;
+  border: 1px solid #000000;
+  background-color: #f3f3f3;
+  padding: 15px;
+}

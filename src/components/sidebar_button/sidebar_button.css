@@ -1,0 +1,17 @@
+.sidebar_button:hover {
+  color: #b83336;
+}
+.sidebar_button {
+  border: none;
+  background-color: #f3f3f3;
+  padding-bottom: 15px;
+  width: auto;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.active .sidebar_button {
+  color: #b83336;
+}

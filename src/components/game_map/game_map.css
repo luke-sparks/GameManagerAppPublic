@@ -1,0 +1,42 @@
+.grid_body {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto 30% 30% 15%;
+  padding: 40px;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+.body {
+  height: auto;
+  width: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  grid-column: 2/4;
+
+  color: #000000;
+}
+#game_map_bar {
+  justify-self: start;
+}
+#StickMan1 {
+  position: relative;
+  top: 30px;
+  left: 200px;
+  width: 150px;
+}
+#GameMap {
+  font-size: 24px;
+}
+#previous {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: start;
+}
+#continue {
+  grid-row: 2;
+  grid-column: 3;
+  justify-self: end;
+}
