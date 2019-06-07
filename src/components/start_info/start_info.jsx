@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "./start_info.css";
 import stickFigure from "./../../images/StickMan_03.png";
-import Sidebar from "../sidebar/sidebar";
 import Previous from "../previous/previous";
 import Continue from "../continue/continue";
 
@@ -11,8 +10,6 @@ class StartInfo extends Component {
   render() {
     return (
       <div class="grid_body">
-        <Sidebar id="start_info_bar">
-        </Sidebar>
         <body class="body">
           <h1 id="StartInfo">Start info!</h1>
           <p id="StartInfoBody">

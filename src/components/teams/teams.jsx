@@ -11,7 +11,10 @@ class Teams extends Component {
   render() {
     return (
       <div class="grid_body">
-        <Sidebar id="teams_bar">
+        <Sidebar id="teams_bar"
+                  path={"Teams"}
+                  nav_link_array={["Team1","Team2","Team3"]}
+                  text_array={["Team 1", "Team 2", "Team 3"]}>
         </Sidebar>
         <body class="body">
           <h1 id="Teams">Teams!</h1>

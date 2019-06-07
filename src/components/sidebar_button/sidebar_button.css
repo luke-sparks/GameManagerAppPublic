@@ -1,9 +1,10 @@
 .sidebar_button:hover {
   color: #b83336;
+  cursor: pointer;
 }
 .sidebar_button {
   border: none;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   padding-bottom: 15px;
   width: auto;
   color: #000000;

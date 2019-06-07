@@ -5,7 +5,7 @@ import { Route, HashRouter } from "react-router-dom";
 import "./index.css";
 //import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import Nav_bar from "./components/nav_bar/nav_bar";
+import NavBar from "./components/nav_bar/nav_bar";
 //import Continue from "./components/continue/continue";
 import Banner from "./components/banner/banner";
 import Welcome1 from "./components/welcome_body1/welcome_body1";
@@ -21,7 +21,7 @@ ReactDOM.render(
   <div>
     <HashRouter>
       <Banner />
-      <Nav_bar />
+      <NavBar />
       <div class="content">
         <Route exact path="/" component={Welcome1} />
       </div>
@@ -49,7 +49,7 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 /*<Banner />
-    <Nav_bar />
+    <NavBar />
     <div class="footer">
       <Welcome1 />
       <Previous text="Previous" justify="start" col="2" />
