@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "./welcome_body1.css";
 import stickFigure from "./../../images/StickMan_01.png";
+import Previous from "./../previous/previous";
 import Continue from "./../continue/continue";
 
 class Welcome_body1 extends Component {
@@ -32,7 +33,7 @@ class Welcome_body1 extends Component {
           <img id="StickMan1" src={stickFigure} alt="StickMan" />
         </body>
         <NavLink exact to="/" id="previous">
-          <Continue text="Previous" />
+          <Previous text="Previous" />
         </NavLink>
         <NavLink to="/Teams" id="continue">
           <Continue text="Continue" />

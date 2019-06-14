@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   border-bottom: 1px solid #939191;
+  background: #ffffff;
 }
 #nav_button {
   justify-self: center;

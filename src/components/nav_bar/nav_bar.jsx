@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./nav_bar.css";
 import Nav from "./../nav_bar_button/nav_bar_button";
-import { Route, NavLink, HashRouter } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+//import { Route, NavLink, HashRouter } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 class Nav_bar extends Component {
   state = {};
@@ -16,16 +17,16 @@ class Nav_bar extends Component {
         <NavLink to="/Teams" id="nav_button">
           <Nav text="Teams" />
         </NavLink>
-        <NavLink to="/StartInfo" id="nav_button">
+        <NavLink to="/Start_Info" id="nav_button">
           <Nav text="Start Info" />
         </NavLink>
-        <NavLink to="/GameMap" id="nav_button">
+        <NavLink to="/Game_Map" id="nav_button">
           <Nav text="Game Map" />
         </NavLink>
-        <NavLink to="/GameGuide" id="nav_button">
+        <NavLink to="/Game_Guide" id="nav_button">
           <Nav text="Game Guide" />
         </NavLink>
-        <NavLink to="/GameDay" id="nav_button">
+        <NavLink to="/Game_Day" id="nav_button">
           <Nav text="Game Day" />
         </NavLink>
       </div>

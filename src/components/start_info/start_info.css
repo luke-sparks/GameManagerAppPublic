@@ -1,8 +1,9 @@
 .grid_body {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-columns: auto 30% 30% 15%;
   padding: 40px;
+  grid-column-gap: 40px;
   grid-row-gap: 40px;
 }
 .body {
@@ -14,6 +15,11 @@
   line-height: 22px;
   font-size: 16px;
   grid-column: 2/4;
+
+  color: #000000;
+}
+#start_info_bar {
+  justify-self: start;
 }
 #StickMan1 {
   position: relative;
@@ -21,7 +27,7 @@
   left: 200px;
   width: 150px;
 }
-#Welcome {
+#StartInfo {
   font-size: 24px;
 }
 #previous {

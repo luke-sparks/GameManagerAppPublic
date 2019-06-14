@@ -1,5 +1,6 @@
 .nav_bar_button:hover {
   color: #b83336;
+  cursor: pointer;
 }
 .nav_bar_button {
   border: none;

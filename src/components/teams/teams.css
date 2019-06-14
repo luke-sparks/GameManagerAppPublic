@@ -1,8 +1,9 @@
 .grid_body {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-columns: auto 30% 30% 15%;
   padding: 40px;
+  grid-column-gap: 40px;
   grid-row-gap: 40px;
 }
 .body {
@@ -15,13 +16,16 @@
   font-size: 16px;
   grid-column: 2/4;
 }
+#teams_bar {
+  justify-self: start;
+}
 #StickMan1 {
   position: relative;
   top: 30px;
   left: 200px;
   width: 150px;
 }
-#Welcome {
+#Teams {
   font-size: 24px;
 }
 #previous {
